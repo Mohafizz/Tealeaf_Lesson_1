@@ -7,17 +7,13 @@ def output(msg)
 end
 
 output "Please key in first integer."
-
 int1 = gets.chomp
 
 output "You have entered #{int1}. Please key in the second integer."
-
 int2 = gets.chomp
 
 output "You have entered #{int2}. Please select the operation: 1)Add, 2)Subtract, 3)Multiply and 4)Divide"
-
 choice = gets.chomp
-
 
 answer = case choice   #choice must take in strings instead of integers!
 when '1'
