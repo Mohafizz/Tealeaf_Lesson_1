@@ -1,7 +1,8 @@
 # 1. Draw the tic tac toe board
 # 2. Set the squares on the board
-
-require 'pry'
+# 3. Ask player to select square
+# 4. Randomize computer's move
+# 5. Check for winner
 
 def initialize_board
   b = {}
@@ -28,7 +29,6 @@ def player_move(b)
   else
     player_move(b)
   end
-  # binding.pry
 end
 
 def com_move(b)
